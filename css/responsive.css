@@ -158,6 +158,9 @@
         text-align: left;
         padding: 15px 0;
     }
+    .head-top{
+        display:none;
+    }
      .bg {
         padding: 10px 0;
          background-color: #3c8aca;
@@ -266,6 +269,9 @@
      .navbar-expand-md .navbar-nav .nav-link {
         text-align: left;
         padding: 15px 0;
+    }
+    .head-top{
+        display:none;
     }
      .logo {
          text-align: center;

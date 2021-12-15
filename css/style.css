@@ -331,7 +331,7 @@ body {
 }
 /** menu section **/
  .head-top {
-     padding-bottom: 5px;
+     
 }
  .email {
      padding-top: 11px;
@@ -342,7 +342,7 @@ body {
  .email a:hover {
      color: #000;
 }
- .email img {
+ .email img{
     padding-right: 10px;
 }
  .contact_nu {
