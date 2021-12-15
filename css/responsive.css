@@ -43,7 +43,7 @@
         top: 64%;
     }
      .banner_main .carousel-caption h1 {
-        font-size: 65px;
+        font-size: 64px;
          line-height: 70px;
          padding-bottom: 56px;
     }
@@ -90,7 +90,7 @@
     }
      .slider_section {
          min-height: inherit;
-         padding-top: 128px;
+         padding-top: 37px;
     }
      .navbar-expand-md .navbar-nav .nav-link {
         padding: 15px 29px;
@@ -152,7 +152,7 @@
  @media (min-width: 576px) and (max-width: 767px) {
     
      .navbar-dark .navbar-toggler {
-        background: #000;
+        background: #717171;
     }
      .navbar-expand-md .navbar-nav .nav-link {
         text-align: left;
@@ -160,7 +160,7 @@
     }
      .bg {
         padding: 10px 0;
-         background-color: #5ab337;
+         background-color: #3c8aca;
     }
      .banner_main .carousel-caption h1 {
         font-size: 41px;
@@ -185,7 +185,7 @@
     }
      .slider_section {
          min-height: inherit;
-         padding-top: 137px;
+         padding-top: 37px;
     }
      .about_box {
         margin-right: 0px;
@@ -261,7 +261,7 @@
 }
  @media (max-width: 575px) {
      .navbar-dark .navbar-toggler {
-        background: #000;
+        background: #717171;
     }
      .navbar-expand-md .navbar-nav .nav-link {
         text-align: left;
@@ -272,7 +272,7 @@
          display: block;
     }
      .bg {
-         background-color: #5ab337;
+         background-color: #3c8aca;
          padding: 10px 0;
     }
      .email {
@@ -298,7 +298,7 @@
          color: #000;
     }
      .banner_main .carousel-caption h1 {
-         font-size: 42px;
+         font-size: 32px;
          line-height: 46px;
          padding-bottom: 51px;
          padding-top: 14px;
@@ -352,7 +352,7 @@
          bottom: -3px;
     }
      .slider_section {
-        padding-top: 159px;
+        padding-top: 37px;
     }
      .Newsletter .news h2 {
         font-size: 31px;

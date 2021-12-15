@@ -8,3 +8,44 @@
 .imageProfile img{
     border-radius: 50%;
 }
+.iconContact{
+    font-size: 30px;
+    color: #3c8aca;
+}
+.grilla{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 10px;
+    filter: saturate(180%);
+}
+.grilla img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+}
+.grilla img:hover{
+    filter: grayscale(80%);
+}
+
+.widthImage{
+    width: 300px;
+    height: 300px;
+}
+.widthImage img{
+    width: 100%;
+    height: 100%;
+    margin: 10px;
+    border-radius: 5px;
+}
+.spaceServices{
+    margin-bottom: 20px;
+}
+
+@media(max-width:525px){
+    .grilla{
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(6,1fr);
+}
+}
