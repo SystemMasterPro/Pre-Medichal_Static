@@ -42,10 +42,92 @@
 .spaceServices{
     margin-bottom: 20px;
 }
+.youtube{
+    background-color: #f00;
+    padding: 10px;
+    margin: 20px;
+    color: white;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+.youtube:hover{
+    background-color: #3c8aca;
+    color: #000;
+}
+.containerButtonYoutube{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    justify-items: center;
+}
+.video{
+    width: 500px;
+    height: 300px;
+}
+.ir-arriba{
+    display:none;
+    background-repeat:no-repeat;
+    font-size:20px;
+    color:black;
+    cursor:pointer;
+    position:fixed;
+    bottom:10px;
+    right:10px;
+    z-index:2;
+  }
+  /* Botones Flotantes */
+.btn-flotante-messenger {
+	border-radius: 10%; /* Borde del boton */
+	padding: 2px 2px; /* Relleno del boton */
+	position: fixed;
+	bottom: 50px;
+	right: 45px;
+	z-index: 99;
+    margin: 25px 0;
+}
+.btn-flotante-messenger img{
+    width: 45px;
+    height: 45px;
+}
+.btn-flotante-telegram{
+    border-radius: 10%;
+	padding: 2px 2px; /* Relleno del boton */
+	position: fixed;
+	bottom: 120px;
+	right: 40px;
+	z-index: 99;
+}
+.btn-flotante-telegram img{
+    width: 60px;
+    height: 60px;
+}
+.btn-flotante-messenger img:hover {
+	cursor: pointer;
+    transform: rotate(180deg);
+}
+.btn-flotante-telegram img:hover {
+	cursor: pointer;
+    transform: rotate(45deg);
+}
+  
 @media(max-width:525px){
     .grilla{
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(6,1fr);
+}
+.video{
+    width: 100%;
+    height: auto;
+}
+.btn-flotante-messenger {
+    bottom: 110px;
+    right: 10px;
+}
+.btn-flotante-telegram {
+    bottom: 75px;
+    right: 5px;
 }
 }
 

@@ -730,7 +730,7 @@ body {
      background: #fff;
 }
  .yoga .title {
-    padding-bottom: 130px;
+    padding-bottom: 60px;
 }
  .yoga .title h2 {
      font-size: 60px;
@@ -741,15 +741,7 @@ body {
 }
  .yoga .yoga_box {
      text-align: center;
-     background: #3a8ac9;
-}
- .yoga .yoga_box figure {
-    margin:0;
-}
- .yoga .yoga_box img{
-     margin-top: -70px;
-     padding-bottom: 70px !important;
-     padding: 0px 115px;
+     background: #ffffff;
 }
  .yoga .yoga_box p {
      color: #000;
