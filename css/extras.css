@@ -38,6 +38,9 @@
 .grilla img:hover{
     filter: grayscale(80%);
 }
+.form-control{
+    color: #000 !important;
+}
 /* Sweep To Right */
 .hvr-sweep-to-right {
     display: inline-block;
@@ -60,7 +63,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: #b52a24;
+    background: #717171;
     -webkit-transform: scaleX(0);
     transform: scaleX(0);
     -webkit-transform-origin: 0 50%;
