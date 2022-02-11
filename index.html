@@ -414,7 +414,7 @@
                                         name="message" id="message"></textarea>
                                 </div>
                                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-                                    <button class="send" id="sendEmail">Enviar</button>
+                                    <button class="send hvr-underline-from-left" id="sendEmail">Enviar</button>
                                 </div>
                                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
                                     <ul class="mail-icon">
@@ -469,8 +469,9 @@
                     src="https://evernet.net.co/style/images/telegram.png" alt="messenger"></a>
 
     <!-- Javascript files-->
-    <script src="js/peticion.js"></script>
+    <!-- <script src="js/peticion.js"></script> -->
     <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-3.0.0.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
@@ -478,25 +479,24 @@
     <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10/dist/sweetalert2.all.min.js"></script>
     <script src="js/sendEmail.js"></script>
-    <script src="js/jquery-3.0.0.min.js"></script>
 
     <script>
         // This example adds a marker to indicate the position of Bondi Beach in Sydney,
         // Australia.
         function initMap() {
             var map = new google.maps.Map(document.getElementById('map'), {
-                zoom: 11,
+                zoom: 15,
                 center: {
-                    lat: -4.0075088,
-                    lng: -79.2433985
+                    lat: -4.000441,
+                    lng: -79.206690
                 },
             });
 
-            var image = 'images/maps-and-flags.png';
+            var image = '';
             var beachMarker = new google.maps.Marker({
                 position: {
-                    lat: -4.0075088,
-                    lng: -79.2433985
+                    lat: -4.000441,
+                    lng: -79.206690
                 },
                 map: map,
                 icon: image
@@ -507,8 +507,6 @@
     <script
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8eaHt9Dh5H57Zh0xVTqxVdBFCvFMqFjQ&callback=initMap"></script>
     <!-- end google map js -->
-
-</body>
 <script>
     $(document).ready(function(){ irArriba(); }); //Hacia arriba
 
@@ -526,5 +524,5 @@ $('.contenedor').mouseleave(function(){
   $('.btn').removeClass('animacionVer');
 })
 </script>
-
+</body>
 </html>
