@@ -1,3 +1,10 @@
+.visible{
+    position: fixed;
+    /* background-color: #3c8aca; */
+}
+.head-top{
+    background-color: rgba(99, 97, 97, 0.932);
+}
 .name{
     font-size: 20px;
     font-weight: bolder;
@@ -10,7 +17,10 @@
 }
 .iconContact{
     font-size: 30px;
-    color: #3c8aca;
+    color: #ffffff;
+}
+.contact{
+    color: #ffffff;
 }
 .grilla{
     display: grid;
