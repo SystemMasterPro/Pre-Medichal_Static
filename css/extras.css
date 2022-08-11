@@ -169,6 +169,18 @@
     width: 60px;
     height: 60px;
 }
+.btn-flotante-whatsapp{
+    border-radius: 10%;
+	padding: 2px 2px; /* Relleno del boton */
+	position: fixed;
+	bottom: 165px;
+	right: 25px;
+	z-index: 99;
+}
+.btn-flotante-whatsapp img{
+    width: 90px;
+    height: 80px;
+}
 .btn-flotante-messenger img:hover {
 	cursor: pointer;
     transform: rotate(180deg);
@@ -176,6 +188,10 @@
 .btn-flotante-telegram img:hover {
 	cursor: pointer;
     transform: rotate(45deg);
+}
+.btn-flotante-whatsapp img:hover {
+	cursor: pointer;
+    transform: rotate(20deg);
 }
 @media(max-width:650px){
     .video{
@@ -211,6 +227,10 @@
 .btn-flotante-telegram {
     bottom: 75px;
     right: 5px;
+}
+.btn-flotante-whatsapp {
+    bottom: 170px;
+    right: -11px;
 }
 }
 @media(max-width:400px){
