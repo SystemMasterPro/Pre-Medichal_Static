@@ -48,6 +48,10 @@
 /* Sweep To Right */
 .hvr-sweep-to-right {
     display: inline-block;
+    font-family: 'Times New Roman';
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px !important;
     vertical-align: middle;
     -webkit-transform: perspective(1px) translateZ(0);
     transform: perspective(1px) translateZ(0);
@@ -67,15 +71,16 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: #717171;
+    background: #046886;
+    border-radius: 3px;
     -webkit-transform: scaleX(0);
     transform: scaleX(0);
     -webkit-transform-origin: 0 50%;
     transform-origin: 0 50%;
     -webkit-transition-property: transform;
     transition-property: transform;
-    -webkit-transition-duration: 0.3s;
-    transition-duration: 0.3s;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
     -webkit-transition-timing-function: ease-out;
     transition-timing-function: ease-out;
 }

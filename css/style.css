@@ -142,7 +142,7 @@ body {
      background: #f9f9f9;
 }
  .theme_bg {
-     background: #3b8ec3;
+     background: #548cd4;
 }
  .margin_top_30 {
      margin-top: 30px !important;
@@ -423,8 +423,9 @@ body {
      border-radius: 20px;
 }
  .banner_main .carousel-caption a:hover {
-     background: #717171 ;
+     background: #df040b;
      color: #fff;
+     transition: all 0.9s;
 }
  .carousel-control-prev-icon {
     display: none;
