@@ -173,13 +173,13 @@
     border-radius: 10%;
 	padding: 2px 2px; /* Relleno del boton */
 	position: fixed;
-	bottom: 165px;
-	right: 25px;
+	bottom: 178px;
+	right: 33px;
 	z-index: 99;
 }
 .btn-flotante-whatsapp img{
-    width: 90px;
-    height: 80px;
+    width: 75px;
+    height: 55px;
 }
 .btn-flotante-messenger img:hover {
 	cursor: pointer;
@@ -229,8 +229,8 @@
     right: 5px;
 }
 .btn-flotante-whatsapp {
-    bottom: 170px;
-    right: -11px;
+    bottom: 185px;
+    right: -3px;
 }
 }
 @media(max-width:400px){
